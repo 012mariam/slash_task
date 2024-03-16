@@ -23,7 +23,9 @@ I have taken screenshots of product images obtained from [Slash-eg](https://slas
 ## Fine-Tuning
 - Grid search is employed to find the best hyperparameters for the SVM model to get the best hyperparameters: {'C': 10, 'kernel': 'rbf'} for svm model.
 ## Building Deeplearning model 
-We use a CNN architecture for image classification. The model consists of multiple convolutional layers followed by max-pooling layers for feature extraction. After flattening the output, we add dense layers for classification.
+- using a CNN architecture for image classification.
+- The model consists of multiple convolutional layers followed by max-pooling layers for feature extraction.
+- After flattening the output, added dense layers for classification.
 
 
 
