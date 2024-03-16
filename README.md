@@ -13,7 +13,7 @@ I have taken screenshots of product images obtained from [Slash-eg](https://slas
 - Image data is read and preprocessed using the `skimage` library.
 - Images are resized to a (224,224) size to ensure consistency in input dimensions for the model.
 
-## Model Building
+## Building machine learning model
 - Two machine learning models are explored: RandomForestClassifier and Support Vector Machine (SVM).
 
 ## Training
@@ -22,6 +22,8 @@ I have taken screenshots of product images obtained from [Slash-eg](https://slas
 
 ## Fine-Tuning
 - Grid search is employed to find the best hyperparameters for the SVM model to get the best hyperparameters: {'C': 10, 'kernel': 'rbf'} for svm model.
+## Building Deeplearning model 
+We use a CNN architecture for image classification. The model consists of multiple convolutional layers followed by max-pooling layers for feature extraction. After flattening the output, we add dense layers for classification.
 
 
 
